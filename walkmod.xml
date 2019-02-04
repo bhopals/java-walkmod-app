@@ -22,7 +22,6 @@
         <transformation type="sonar:UseCollectionIsEmpty"/>
         <transformation type="sonar:UseStringEquals"/>
         <transformation type="sonar:VariableImmediatelyReturned"/>
-        
         <transformation type="dead-code-cleaner">
             <param name="removeUnusedImports">true</param>
             <param name="removeUnusedVariables">true</param>
@@ -33,13 +32,19 @@
             <param name="removeUnusedMethods">true</param>
             <param name="removeUnusedFields">true</param>
         </transformation>
-         <transformation type="override"/>
-          <transformation type="comments-cleaner"/>
-        
-        <!-- <transformation type="java-formatter"/> -->
-        
-        <!-- <transformation isMergeable="true" type="walkmod:commons:setter-getter-gen"/> -->
+        <transformation type="override"/>
+        <transformation type="comments-cleaner"/>
+        <transformation type="checkstyle"/>
     </chain>
-    
-   
+    <chain name="default">
+        <transformation type="checkstyle">
+            <param name="configurationFile">'google_checks.xml'</param>
+        </transformation>
+        <transformation type="checkstyle">
+            <param name="configurationFile">'formatter.xml'</param>
+        </transformation>
+        <transformation type="checkstyle">
+            <param name="configurationFile">'formatter.xml'</param>
+        </transformation>
+    </chain>
 </walkmod>

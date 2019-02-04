@@ -1,3 +1,4 @@
+package com.walkmod.other;
 /*package com.walkmod.sonar;
 
 public class AN_RemoveCodeComment {

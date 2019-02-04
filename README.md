@@ -18,3 +18,39 @@
 	walkmod add -R sonar:DeclarationsShouldUseCollectionInterfaces
 	
 	```
+
+
+## Types of code convention applied
+	
+	```
+		 -  sonar:AddCurlyBrackets
+	    -  sonar:AddSwitchDefaultCase
+	    -  sonar:ArrayDesignatorOnType
+	    -  sonar:CollapsibleIfStatements
+	    -  sonar:DeclarationsShouldUseCollectionInterfaces
+	    -  sonar:LocalVarsShouldComplyWithNamingConvention
+	    -  sonar:PrimitiveInstantiationForToString
+	    -  sonar:RedundantCastsShouldNotBeUsed
+	    -  sonar:RemoveEmptyMethod
+	    -  sonar:RemoveEmptyStatement
+	    -  sonar:RemoveLiteralBoolean
+	    -  sonar:RemoveUnusedMethodParameters
+	    -  sonar:RemoveUselessImports
+	    -  sonar:RemoveUselessParentheses
+	    -  sonar:RemoveUselessVariables
+	    -  sonar:StaticInitializedFieldToFinal
+	    -  sonar:StringCheckOnLeft
+	    -  sonar:UseCollectionIsEmpty
+	    -  sonar:UseStringEquals
+	    -  sonar:VariableImmediatelyReturned
+	
+		-  imports-cleaner
+		-  dead-code-cleaner
+		
+		```
+	
+	
+### Walkmod Plugin Link
+	
+	https://github.com/walkmod
+	

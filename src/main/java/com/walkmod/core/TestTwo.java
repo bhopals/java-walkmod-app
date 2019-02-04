@@ -21,9 +21,6 @@ public class TestTwo {
 		
 
 		System.out.println("bye");
-		/*System.out.println("TEST");
-		System.out.println("TEST");
-		System.out.println("TEST");*/
 		
 		String testAr = "TEST VAR";
 		// TODO Auto-generated method stub

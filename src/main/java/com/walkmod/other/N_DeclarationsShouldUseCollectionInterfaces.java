@@ -1,3 +1,4 @@
+package com.walkmod.other;
 /*package com.walkmod.sonar;
 
 import java.util.ArrayList;
