@@ -1,9 +1,15 @@
-package com.walkmod.sonar;
+/*package com.walkmod.sonar;
 
+import java.util.*;
+import sun.applet.*;
 public class RemoveUselessImports {
 	
-	private void uselessImport() {
+	private static void uselessImport() {
 		
 	}
 
+	public static void main(String[] args) {
+		uselessImport();
+	}
 }
+*/
