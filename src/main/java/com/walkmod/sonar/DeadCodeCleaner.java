@@ -1,6 +1,6 @@
 package com.walkmod.sonar;
 
-import com.oracle.jrockit.*;
+import java.util.*;
 
 public class DeadCodeCleaner {
 
