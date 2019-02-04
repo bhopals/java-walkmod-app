@@ -1,14 +1,13 @@
-package com.walkmod.sonar;
+/*package com.walkmod.other;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class ArrayDesignatorOnType {
 
 	private static void arrayListTest() {
 
-		ArrayList<String> samples = new ArrayList<String>();
+		List<String> samples = new ArrayList<String>();
 		samples.add("TEST1");
 		samples.add("TEST2");
 		samples.add("TEST3");
@@ -21,3 +20,4 @@ public class ArrayDesignatorOnType {
 		arrayListTest();
 	}
 }
+*/
