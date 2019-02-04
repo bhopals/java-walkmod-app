@@ -2,7 +2,7 @@ package com.walkmod.sonar;
 
 public class AddCurlyBrackets {
 
-	private void ifCurlyBracketsTest() {
+	private static void ifCurlyBracketsTest() {
 		
 		boolean isContinue = true;
 		String result= "";
@@ -17,7 +17,7 @@ public class AddCurlyBrackets {
 	}
 
 
-	private void forCurlyBracketsTest() {
+	private static void forCurlyBracketsTest() {
 		
 		boolean isContinue = true;
 		String result= "";
@@ -29,4 +29,8 @@ public class AddCurlyBrackets {
 	
 	}
 
+	public static void main(String[] args) {
+		forCurlyBracketsTest();
+		ifCurlyBracketsTest();
+	}
 }

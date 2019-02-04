@@ -2,7 +2,7 @@ package com.walkmod.sonar;
 
 public class AddSwitchDefaultCase {
 
-	private void swithDefaultCaseTest() {
+	private static void swithDefaultCaseTest() {
 
 		String match = "B";
 
@@ -24,4 +24,9 @@ public class AddSwitchDefaultCase {
 			}
 		}
 	}
+	
+	public static void main(String[] args) {
+		swithDefaultCaseTest();
+	}
 }
+
