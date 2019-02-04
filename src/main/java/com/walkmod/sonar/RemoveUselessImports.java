@@ -1,4 +1,4 @@
-/*package com.walkmod.sonar;
+package com.walkmod.sonar;
 
 import java.util.*;
 import sun.applet.*;
@@ -12,4 +12,3 @@ public class RemoveUselessImports {
 		uselessImport();
 	}
 }
-*/

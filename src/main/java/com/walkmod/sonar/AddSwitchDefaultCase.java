@@ -1,4 +1,4 @@
-/*package com.walkmod.sonar;
+package com.walkmod.sonar;
 
 public class AddSwitchDefaultCase {
 
@@ -25,4 +25,3 @@ public class AddSwitchDefaultCase {
 		}
 	}
 }
-*/

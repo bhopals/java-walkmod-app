@@ -1,10 +1,10 @@
-/*package com.walkmod.sonar;
+package com.walkmod.sonar;
 
 import java.util.ArrayList;
 
 public class LocalVarsShouldComplyWithNamingConvention {
 	
-	private void LocalVaribleNamingTest(){
+	private static void localVaribleNamingTest(){
 		
 		String str_test = "TEST";
 		Integer int_test = 5;
@@ -18,5 +18,7 @@ public class LocalVarsShouldComplyWithNamingConvention {
 		System.out.println("VALUES:"+str_test+int_test+float_test);
 	}
 
+	public static void main(String[] args) {
+		localVaribleNamingTest();
+	}
 }
-*/

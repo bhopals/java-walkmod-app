@@ -1,4 +1,4 @@
-/*package com.walkmod.sonar;
+package com.walkmod.sonar;
 
 public class AddCurlyBrackets {
 
@@ -30,4 +30,3 @@ public class AddCurlyBrackets {
 	}
 
 }
-*/

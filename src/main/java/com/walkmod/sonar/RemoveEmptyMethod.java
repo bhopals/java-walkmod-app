@@ -1,4 +1,4 @@
-/*package com.walkmod.sonar;
+package com.walkmod.sonar;
 
 public class RemoveEmptyMethod {
 
@@ -10,7 +10,7 @@ public class RemoveEmptyMethod {
 	
 	}
 
-	private void bar(String a, String b, boolean c, boolean d) {
+	private static void bar(String a, String b, boolean c, boolean d) {
 		System.out.println(a);
 		System.out.println(b);
 	}
@@ -22,5 +22,8 @@ public class RemoveEmptyMethod {
 	
 	
 	}
+	
+	public static void main(String[] args) {
+		bar("","",true,false);
+	}
 }
-*/

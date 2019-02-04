@@ -1,4 +1,4 @@
-/*package com.walkmod.sonar;
+package com.walkmod.sonar;
 
 public class AddOverride {
 
@@ -24,4 +24,3 @@ public class AddOverride {
 	
 	
 }
-*/

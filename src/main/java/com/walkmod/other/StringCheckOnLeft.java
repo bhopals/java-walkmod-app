@@ -1,4 +1,4 @@
-package com.walkmod.sonar;
+package com.walkmod.other;
 
 public class StringCheckOnLeft {
 

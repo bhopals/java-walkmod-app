@@ -1,4 +1,4 @@
-/*package com.walkmod.sonar;
+package com.walkmod.sonar;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,4 +17,3 @@ public class ArrayDesignatorOnType {
 
 	}
 }
-*/
